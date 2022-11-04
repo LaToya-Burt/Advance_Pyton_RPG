@@ -1,4 +1,4 @@
-
+import random
 
 the_hero={
 "name": "Mom", 
@@ -19,7 +19,7 @@ enemy_one={
 "level": 18,
 "health": 100,
 "equipment": {"Xbox", "hoodies", "permit"},
-"attacks": (( "closed doors", 50), ("smart mouth", 70), ("bear hug", 50)),
+"attacks": (( "closed doors", 20), ("smart mouth", 30), ("bear hug", 10)),
 "coins":{
     "copper": 100,
     "silver": 20,
@@ -34,7 +34,7 @@ enemy_two={
 "level": 16,
 "health": 100,
 "equipment":{"cellphone", "bookbags", "leggings"},
-"attacks": (("eye roll",70 ), ("slamming doors", 50),( "needing a ride", 80)),
+"attacks": (("eye roll",30 ), ("slamming doors", 50),( "needing a ride", 15)),
 "coins": {
     "copper":0,
     "silver": 0,
@@ -48,7 +48,7 @@ enemy_three= {
 "level": 14,
 "health":100,
 "equipment": {"switch", "skinny jeans", "headphones"},
-"attacks": (("saying huh", 50), ("attitude", 70), ("big smile", 100)),
+"attacks": (("saying huh", 20), ("attitude", 30), ("big smile", 50)),
 "coins":{
     "copper":50,
     "silver":80,
@@ -57,3 +57,5 @@ enemy_three= {
 }    
 
 }
+
+
