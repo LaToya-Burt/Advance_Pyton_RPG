@@ -1,14 +1,8 @@
+import battle
+from characters import the_hero, enemy_one, enemy_two, enemy_three
 
+battle.display_welcome()
 
-
-
-greeting=""" Welcome to the Battle Royal"""
-
-print(greeting )
-print ("")
-instructions= "The hero, Mom will be fighting her three enemy children. Who will win, lets check it out."
-print(instructions)
-print("")
-
+battle.attack_phrase(the_hero,enemy_one)
 
 

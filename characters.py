@@ -5,7 +5,7 @@ the_hero={
 "level": 38, 
 "health": 100,
 "equipment": {"purse", "shoe", "van"},
-"attacks": (("saying no",100), ("shoe attack", 70), ("laundry", 55)),
+"attacks": (("saying no",60), ("shoe attack", 70), ("laundry", 55)),
 "coins":{
     "copper": 150,
     "sliver": 80,
@@ -57,5 +57,11 @@ enemy_three= {
 }    
 
 }
+
+
+kids_list= [enemy_one, enemy_two, enemy_three]
+
+
+
 
 
