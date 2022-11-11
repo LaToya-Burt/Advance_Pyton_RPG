@@ -5,7 +5,7 @@ the_hero={
 "level": 38, 
 "health": 100,
 "equipment": {"purse", "shoe", "van"},
-"attacks": (("saying no",60), ("shoe attack", 70), ("laundry", 55)),
+"attacks": (("saying no",40), ("shoe attack", 45), ("laundry", 35)),
 "coins":{
     "copper": 150,
     "sliver": 80,
@@ -19,7 +19,7 @@ enemy_one={
 "level": 18,
 "health": 100,
 "equipment": {"Xbox", "hoodies", "permit"},
-"attacks": (( "closed doors", 20), ("smart mouth", 30), ("bear hug", 10)),
+"attacks": (( "closed doors", 15), ("smart mouth", 20), ("bear hug", 10)),
 "coins":{
     "copper": 100,
     "silver": 20,
