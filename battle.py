@@ -39,8 +39,24 @@ def attack_phrase(hero,enemy):
             leaving {hero['name']} {hero['health']} health remaining.""")
 
 
+def loot_the_loser(hero,enemy):
+   for equipment in hero['equipment']:
+    if enemy['health']==0:
+       hero['equipment'].update (enemy['equipment']) 
+       print(f""" {hero ['name']} has defeated {enemy['name']}!
+        Look what was added to equipment {hero['equipment']}""")
+   
+   
+   
+   
+     
+       
+    
+    
+    #when the enemy heath is 0 i want to take there equipment 
 
-
+        
+      
 
 
 

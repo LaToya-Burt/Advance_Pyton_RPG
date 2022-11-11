@@ -3,7 +3,7 @@ import random
 the_hero={
 "name": "Mom", 
 "level": 38, 
-"health": 100,
+"health": 300,
 "equipment": {"purse", "shoe", "van"},
 "attacks": (("saying no",40), ("shoe attack", 45), ("laundry", 35)),
 "coins":{
