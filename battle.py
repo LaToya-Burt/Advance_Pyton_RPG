@@ -24,7 +24,7 @@ def attack_phrase(hero,enemy):
         if enemy['health'] < 0: # any action need after the hero dies would go in the scope of this if
             # pickup_enemy_item(hero,enemy) this would be an example of a step that needs to hapen if the enemy dies
             enemy['health'] = 0
-        print(f"""{enemy['name']} was attacked by {hero['name']} for {hero_attacks[1]} damage
+        print(f"""{enemy['name']} was attacked by {hero['name']} with {hero_attacks [0]} for {hero_attacks[1]} damage
         leaving {enemy['name']} {enemy ['health']} health remaining.""")   
         # print(hero_attacks[0]) # attack name
         # print(hero_attacks[1]) # attack damage
@@ -35,16 +35,21 @@ def attack_phrase(hero,enemy):
             hero['health'] -= enemy_attacks[1]
             if hero['health'] < 0:  # any action need after the hero dies would go in the scope of this if
                 hero['health'] = 0
-            print(f"""{hero['name']} was attacked by {enemy['name']} for {enemy_attacks[1]} damage
+            print(f"""{hero['name']} was attacked by {enemy['name']} with {enemy_attacks[0]} for {enemy_attacks[1]} damage
             leaving {hero['name']} {hero['health']} health remaining.""")
 
 
 def loot_the_loser(hero,enemy):
-   for equipment in hero['equipment']:
-    if enemy['health']==0:
-       hero['equipment'].update (enemy['equipment']) 
-       print(f""" {hero ['name']} has defeated {enemy['name']}!
-        Look what was added to equipment {hero['equipment']}""")
+    enemy['health']==0
+    hero['equipment'].update (enemy['equipment']) 
+    print(f""" {hero ['name']} has defeated {enemy['name']}!
+    Look at all the hero has now {hero['equipment']}""")
+
+
+def the_winner(hero):
+    print(f"{hero['name']} is the Champion she has Defeated all 3 enemy! Way to go")
+
+
    
    
    
@@ -53,7 +58,7 @@ def loot_the_loser(hero,enemy):
        
     
     
-    #when the enemy heath is 0 i want to take there equipment 
+   
 
         
       
